@@ -1,0 +1,46 @@
+// @import "/app/core/styles/themes.scss";
+
+.flexbox-container-card-manager {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.flexbox-app-card {
+  display: flex;
+  width: 50%;
+}
+
+.subtitle {
+  margin: 5vw 0% 1vw 1.5%;
+  text-transform: uppercase;
+}
+
+.solid {
+  border: 0;
+  height: 0.05vw;
+  background: #333;
+  background-image: linear-gradient(to right, #00adb5, #333, #00adb5);
+  opacity: 0.7;
+  align-self: center;
+  margin: 0vw 1vw;
+  //  background-image: linear-gradient( to left top, rgb(0, 173, 181), rgb($primary-color));
+}
+
+@media screen and (max-width: 768px) {
+  .flexbox-app-card {
+    width: 100%;
+  }
+
+  .subtitle {
+    margin: 5vh 0% 1vh 1.5%;
+  }
+
+  .solid {
+    border: 0;
+    height: 0.05vh;
+    margin: 0vh 1vh;
+    //  background-image: linear-gradient( to left top, rgb(0, 173, 181), rgb($primary-color));
+  }
+}
