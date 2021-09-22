@@ -62,6 +62,7 @@
   }
 
   .img-hover-zoom--blur img {
+    filter: blur(0vh);
     transform: scale(1);
   }
 }
