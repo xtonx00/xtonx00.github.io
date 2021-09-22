@@ -43,13 +43,11 @@
 /* Blur-zoom Container */
 .img-hover-zoom--blur img {
   transition: transform 1s, filter 1s ease-in-out;
-  filter: blur(0.02vw);
   transform: scale(1.12);
 }
 
 /* The Transformation */
 .img-hover-zoom--blur:hover img {
-  filter: blur(0);
   transform: scale(1.05);
 }
 
@@ -64,7 +62,6 @@
   }
 
   .img-hover-zoom--blur img {
-    filter: blur(0vh);
     transform: scale(1);
   }
 }
