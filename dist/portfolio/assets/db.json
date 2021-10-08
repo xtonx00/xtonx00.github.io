@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "title": "AnimeLog",
+    "number": "01",
+    "description": "Progetto d'esame riguardante la programmazione di un sito web a scelta utilizzando Vue.",
+    "imageName": "portfolioAnimeLog-100.jpg",
+    "linkOne": "https://s18n1.csb.app/popular"
+  },{
+    "id": 2,
+    "title": "Pizzart",
+    "number": "02",
+    "description": "User research e sviluppo grafico di un'app di delivery seguendo le guidelines di material.",
+    "imageName": "portfolioPizzart-100.jpg",
+    "linkOne": "https://www.behance.net/gallery/116942557/PizzArt-Mobile-app-%28caso-di-studio-UX%29"
+  },
+  {
+    "id": 3,
+    "title": "Bon Appètit",
+    "number": "03",
+    "description": "Ricerca semiotica sul mondo della ristorazione gourmet durante il primo lockdown.",
+    "imageName": "portfolioBonAppetit-100.jpg",
+    "linkOne": "https://www.behance.net/gallery/116921999/Ristoranti-vuoti-pieni-di-idee-Ricerca-semiotica"
+  }
+]

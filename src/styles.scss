@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./app/core/shared/background-color-handler/background-color-handler.component.scss";
+@import "./app/core/styles/fonts.scss";
+@import "./app/core/styles/themes.scss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $primary-color;
+  color: $black-color;
+}
+
+html::-webkit-scrollbar {
+  width: 0.6vw;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: inherit;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #29a3a3;
+  border-radius: 0.6vw;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: #33cccc;
+  border-radius: 0.6vw;
+}
+
+html::-webkit-scrollbar-thumb:active {
+  background: #5cd6d6;
+  border-radius: 0.6vw;
+}
+
+@media screen and (max-width: 768px) {
+}
